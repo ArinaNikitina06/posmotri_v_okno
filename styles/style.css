@@ -176,7 +176,6 @@ fieldset {
 }
 
 .content__details {
-  
   display: flex;
   flex-direction: column;
   gap: 26px;
@@ -262,5 +261,3 @@ fieldset {
 .content__list-item:hover {
   text-decoration: underline;
 }
-
-
