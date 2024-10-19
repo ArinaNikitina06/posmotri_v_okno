@@ -183,6 +183,7 @@ fieldset {
 
 .content__list {
   display: flex;
+  position: relative;
   flex-direction: column;
   gap: 30px;
   overflow: auto;
@@ -218,7 +219,6 @@ fieldset {
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
-  line-height: 100%;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -242,7 +242,7 @@ fieldset {
   background-color: var(--active-color);
 }
 
-.content__video-card {
+.content__video-card { 
   display: flex;
   padding: 2px;
   align-items: flex-start;
@@ -256,6 +256,10 @@ fieldset {
 
 .more-button {
   width: 100%;
+}
+
+.content__list-item{
+  height: 107px;
 }
 
 .content__list-item:hover {
